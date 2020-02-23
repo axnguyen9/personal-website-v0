@@ -1,0 +1,30 @@
+h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+.about, .fun {
+  margin-bottom: 20%;
+}
+
+.daily {
+  margin-bottom: 15%;
+}
+
+.fun li {
+  text-align: left;
+  line-height: 2.5;
+}
+
+img {
+  border: 2px solid #CCDDFF;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}

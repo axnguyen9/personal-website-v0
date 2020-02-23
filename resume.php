@@ -1,0 +1,179 @@
+<?php
+include("includes/init.php");
+$resume = "highlight";
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anna Nguyen</title>
+
+  <link rel="stylesheet" type="text/css" href="./styles/resumestyle.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="./styles/allstyle.css" media="all" />
+</head>
+
+<body>
+  <header>
+    <?php include("includes/header.php"); ?>
+  </header>
+
+  <div class="banner">
+    <section>
+      <h1>R E S U M E</h1>
+    </section>
+  </div>
+
+  <div class="resume title">
+    <section class="education">
+      <h2>E d u c a t i o n</h2>
+      <h3>Cornell University (Ithaca, NY)</h3>
+      <h4><em>Bachelor of Science, Expected: May 2023</em></h4>
+      <ul>
+        <li>Major: Computer Science</li>
+        <li>Relevant Coursework: Data Structures and
+            Object-Oriented Programming Honors, Intro to Digital
+            Product Design, Multivariable Calculus,
+            Discrete Structures, Linear Algebra,
+            Intermediate Design and Programming for the Web</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>E x p e r i e n c e</h2>
+      <h3><a href="https://girlswhocode.com/">Girls Who Code</a></h3>
+      <h4><em>Sep 2016 – June 2019</em></h4>
+      <ul>
+        <li>President (2017-19)</li>
+        <li>Mentored 20 young women in developing personal interests in STEM
+          and real-world computer science skills through mini projects in
+          <a href="https://docs.google.com/presentation/d/1aE74FkvYqmMh355rOIrNO-mS78pd8x1aWQQJRxav42I/edit?usp=sharing">HTML & CSS</a>, MIT App Inventor 2.0, 3D printing (Tinkercad), and Python</li>
+          <li>Curated club curriculum and updated <a href="https://girlswhocodemclean.wixsite.com/blog">club website</a> weekly to reflect
+            new tech opportunities, platforms, and events</li>
+      </ul>
+
+      <h3>Coder Kids</h3>
+      <h4><em>Dec 2018 – July 2019</em></h4>
+      <ul>
+        <li>Computer science tutor at <a href="https://coder-kids.com/"> Coder Kids</a></li>
+        <li>Taught Java to children aged 6 to 13 years in the form
+          of Minecraft modding, Lua in Roblox Studio, Python, XCode,
+          HTML & CSS, and Scratch</li>
+        <li>Collaborated with 4 team members to organize and execute
+          seasonal winter & summer camp sessions of 35 children</li>
+        <li>Guided a group of 5 girls in creating a plant-care tracking
+          Android phone application using MIT App Inventor 2.0 and
+          competed in the international <a href="https://technovationchallenge.org/"> Technovation Challenge </a></li>
+      </ul>
+
+      <h3>Prisoner Express</h3>
+      <h4><em>Feb 2020 – present</em></h4>
+      <ul>
+        <li>Database Management & Mailroom Coordinator @ <a href="https://prisonerexpress.org/">Prisoner Express</a></li>
+        <li>Sorted and coordinated mail from over 400 inmates throughout the country</li>
+        <li>Tracked inmate registration across different programs, including Poetry Anthology and
+          Journal Program
+        </li>
+      </ul>
+
+      <h3>Chesterbrook Summer Quest Program</h3>
+      <h4><em>July 2016, July 2017</em></h4>
+      <ul>
+        <li>Assistant Teacher</li>
+        <li>Served as mentor and class assistant for class of
+          20 kindergarten to second-grade children 7 hours
+          per day for 3 weeks</li>
+        <li>Guided children’s development in science by
+          implementing lesson plans that focused on experimentation
+          and theoretical science</li>
+      </ul>
+    </section>
+
+    <section class="activities">
+      <h2>A c t i v i t i e s &nbsp; & &nbsp; C o m m i t m e n t s</h2>
+      <h3><a href="https://cornellhealth.tech/">Cornell HealthTech </a>Project Team</h3>
+      <h4><em>Fall 2019 – present</em></h4>
+      <ul>
+        <li>Software Subteam Member</li>
+        <li>Developed a tablet application educating women
+          aged 15-50 in Rajasthan, India about menstrual health
+          and their bodies through engaging storylines and rich
+          visuals in partnership with Barefoot College</li>
+      </ul>
+
+      <h3><a href="https://smartisstrong.wixsite.com/sisfoundation">Smart is Strong</a> Foundation</h3>
+      <h4><em>Fall 2019 – present</em></h4>
+      <ul>
+        <li>Vice President's Committee</li>
+        <li>Organized the International Women’s Day Conference
+          in Spring 2019, an event targeting gender inequality
+          in education and how to reduce it by featuring a speaker
+          series of inspiring women empowering change in their
+          communities</li>
+      </ul>
+
+      <h3><a href="https://wicc.cornell.edu/">Women in Computing at Cornell</a> (WICC)</h3>
+      <h4><em>Spring 2019 – present</em></h4>
+      <ul>
+        <li>Social Co-Director</li>
+        <li>Plan e-board and general events designed to foster
+          stronger sense of community and encourage discussion of social issues
+        </li>
+        <li>"Coffee Chats" series in collaboration with different organizations
+          to discuss the intersectionality of technology and various other fields
+        </li>
+      </ul>
+
+      <h3>International Cultures Club</h3>
+      <h4><em>Sep 2018 – June 2019</em></h4>
+      <ul>
+        <li>Co-Founder & Co-President</li>
+        <li>Organized “International Night” for 100
+          attendees, a school event celebrating diverse
+          cultures around the world through student/teacher
+          performances and cultural foods in collaboration
+          with other student associations</li>
+      </ul>
+
+      <h3>Summer Residential Governor's School
+        for Mathematics, Science and Technology</h3>
+      <h4><em>July 2018</em></h4>
+      <ul>
+        <li>Explored basic concepts of computer networking
+          by setting up DNS servers on Raspberry Pis and
+          connecting multiple Raspberry Pis on the same network</li>
+      </ul>
+    </section>
+
+    <section class="awards">
+      <h2>A w a r d s &nbsp; & &nbsp; R e c o g n i t i o n s</h2>
+      <ul>
+        <li>Entrenpreneurship Award @ <a href="http://www.cu-make.com/"> CU Make-a-thon</a> for SmartCap prototype (Feb 2020)</li>
+        <li>National Center for Women & Information Technology<a href="https://www.ncwit.org/"> (NCWIT)</a>
+          Award for Aspirations in Computing Virginia Affiliate (Feb 2018)</li>
+        <li>2016-17 National Scholastic Art Awards Honorable Mention (Jan 2017)</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>S k i l l s</h2>
+      <ul>
+        <li>Java, Unity, HTML & CSS, Swift, Illustrator, MongoDB</li>
+        <li>Vietnamese (conversational), Spanish (intermediate)</li>
+      </ul>
+    </section>
+
+    <section class="source">
+      <!-- Source: https://www.flickr.com/photos/144034721@N02/48976459278/in/album-72157711541423971/ -->
+      <cite><a href="https://www.flickr.com/photos/144034721@N02/48976459278/in/album-72157711541423971/">profile pic source</a></cite>
+    </section>
+
+  </div>
+
+  <footer>
+    <?php include("includes/footer.php"); ?>
+  </footer>
+</body>
+
+</html>

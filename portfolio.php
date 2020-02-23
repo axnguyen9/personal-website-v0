@@ -1,0 +1,87 @@
+<?php
+include("includes/init.php");
+$portfolio = "highlight";
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anna Nguyen</title>
+
+  <link rel="stylesheet" type="text/css" href="./styles/portfoliostyle.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="./styles/allstyle.css" media="all" />
+</head>
+
+<body>
+  <header>
+    <?php include("includes/header.php"); ?>
+  </header>
+
+  <div class="banner">
+    <section>
+      <h1>P O R T F O L I O</h1>
+    </section>
+  </div>
+
+  <div class="gallery porttitle">
+    <section class="jart">
+      <h2>J &nbsp; A r t &nbsp; S t u d i o</h2>
+        <!-- Source: (original work) Anna Nguyen -->
+        <img src="./images/rock.jpg" alt="Acrylic canvas of rocks">
+        <!-- Source: (original work) Anna Nguyen -->
+        <img src="./images/sunset.jpg" alt="Acrylic canvas of sunset">
+        <!-- Source: (original work) Anna Nguyen -->
+        <img src="./images/temple.jpg" alt="Acrylic canvas of Japanese temple">
+        <!-- Source: (original work) Anna Nguyen -->
+        <img src="./images/marmalade.jpg" alt="Gouache of oranges and marmalade">
+    </section>
+
+    <section class="doodle">
+      <h2>D o o d l e &nbsp; C o l l e c t i o n</h2>
+      <!-- Source: (original work) Anna Nguyen -->
+      <img src="./images/abstract.jpeg" alt="Pen illustration">
+      <!-- Source: (original work) Anna Nguyen -->
+      <img src="./images/ashley.jpg" alt="Pen doodles of Ashley">
+      <!-- Source: (original work) Anna Nguyen -->
+      <img src="./images/cecilia.jpg" alt="Pen doodles of Cecilia">
+      <!-- Source: (original work) Anna Nguyen -->
+      <img src="./images/sketch.jpg" alt="Pencil doodle of a woman">
+    </section>
+
+    <section class="design">
+      <h2>D e s i g n &nbsp; P r o c e s s</h2>
+      <img src="./images/design.jpg" alt="sketching the building">
+
+    </section>
+
+    <section class="process">
+      <p><strong>Design&art are not easy.</strong></p>
+      <p>Step 1: patience! The watercolor painting above took me a year to finish, believe it or not. Some days,
+        I sat there mixing watercolors with death in my soul. But with every single brushstroke, it brought me closer
+        to the end: some furnished building/bridge/trees (haha). Honestly though, this is one of my proudest works today, and I learned a lot about the constraints + powers of watercolor.
+      </p>
+      <p>First off, sketching. Sketching can be boring as hell, but it's valuable for providing general guidelines. It's good
+        practice to block sections of color together, to add depth to the background and give a visual guide before full-blown painting. Then painting. Ah . . . the struggle between detail, and impressionist-type style. I chose to add details, which taught me how to handle watercolor brushes and paints carefully (Water spreads. Seriously. :O). Generally, watercolor paintings lean toward impressionism, but it's up to artist discretion. It's your work, after all :)
+      </p>
+      <p>Tip: use different technique to produce different textures. Example: note the bridge v. the water.</p>
+      <p>Tip tipper: check perspective. Different structures within the painting may face different angles. Add more sketches if necessary!</p>
+      <p>Bigger tipper: water isn't detailed, so wing wing.</p>
+      <p>Reminisce: I wish I'd added less detail, because the painting seems to hit you with all the colors. Although I learned way too much about detailed watercolor, next time I think I want to do something impressionist to balance styles. Every week for 3hrs, I sat down and breathed watercolor fumes, and yes the rectangular part of the bridge maybe took 8hrs too long, but in the end, it was worth it. Signing off, struggling artist (just kidding . . . ).</p>
+    </section>
+
+    <h3>Art Instagram: @chickannasauce </h3>
+
+    <section class="source">
+      <!-- Source: https://www.flickr.com/photos/144034721@N02/48976459278/in/album-72157711541423971/ -->
+      <cite><a href="https://www.flickr.com/photos/144034721@N02/48976459278/in/album-72157711541423971/">profile pic source</a></cite>
+    </section>
+  </div>
+
+  <footer>
+    <?php include("includes/footer.php"); ?>
+  </footer>
+</body>
+
+</html>

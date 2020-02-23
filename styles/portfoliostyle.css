@@ -1,0 +1,41 @@
+.gallery {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.gallery h3 {
+  margin: 60px;
+  color: #0042AB;
+}
+
+.jart, .doodle {
+  margin-bottom: 10%;
+}
+
+.design {
+  margin-bottom: 5%;
+}
+
+.process {
+  padding: 0 20%;
+}
+
+.source {
+  margin-bottom: 1%;
+}
+
+img {
+  border: 2px solid #CCDDFF;
+  margin: 10px 10px 5px 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+h3 {
+  letter-spacing: 2px;
+}

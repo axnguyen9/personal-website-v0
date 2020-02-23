@@ -1,0 +1,17 @@
+.resume ul {
+  list-style: circle;
+  margin-bottom: 50px;
+}
+
+.resume li {
+  line-height: 2;
+  text-align: left;
+}
+
+.skills {
+  margin-bottom: 15%;
+}
+
+.resume, .education, .experience, .activities, .awards {
+  margin-bottom: 20%;
+}

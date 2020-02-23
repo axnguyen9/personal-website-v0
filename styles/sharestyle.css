@@ -1,0 +1,89 @@
+.color, .pronoun, .story_input, .trigger, .submit, .instructions {
+    margin: 40px;
+  }
+
+.color, .pronoun, .story_input, .trigger {
+    margin-bottom: 50px;
+}
+
+.source {
+    margin-bottom: 0;
+}
+
+form {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+.instructions h3{
+    margin-top: 15%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.instructions h4 {
+    margin-top: 0;
+    margin-bottom: 15%;
+    font-weight: normal;
+}
+
+.trigger h6 {
+    font-weight: normal;
+    margin-top: 0;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.trigger label {
+    margin: 0 10px;
+}
+
+.trigger input {
+    margin: 10px;
+}
+
+/* For some reason, wrapping
+    this in a div/container causes
+    CSS to go away */
+h5 {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 40px;
+    line-height: 2;
+    font-style: normal;
+}
+
+.form_feedback {
+    line-height: 2;
+    background-color: #CCDDFF;
+}
+
+main {
+    border: 2px solid #CCDDFF;
+    padding: 0 5%;
+    margin-bottom: 15%;
+}
+
+textarea {
+    margin: 20px 0 0 0;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+.submit_button {
+    color: white;
+    font-size: 18px;
+    font-family: Georgia;
+    letter-spacing: 2px;
+    border: none;
+    padding: 2% 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,66,171,1) 35%, rgba(0,150,209,1) 100%);
+    border-radius: 5px;
+}
+
+.submit_button:hover {
+    border: 3px solid #CCDDFF;
+}

@@ -1,0 +1,21 @@
+p {
+    line-height: 2;
+}
+
+.background {
+    margin-bottom: 20%;
+}
+
+.opps ul {
+    list-style: circle;
+    margin-bottom: 50px;
+  }
+
+.opps li {
+    line-height: 2;
+    text-align: left;
+}
+
+.opps {
+    margin-bottom: 15%;
+}

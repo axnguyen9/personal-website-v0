@@ -1,0 +1,40 @@
+.projects {
+  margin: 0 auto;
+  width: 40%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #0042AB
+}
+
+.projects p {
+  margin-bottom: 100px;
+  line-height: 2;
+}
+
+h4 {
+  font-family: "Courier New";
+  font-size: 24px;
+  color: #0042AB;
+  text-align: center;
+  letter-spacing: 2;
+  padding: 50px 0;
+  border: 2px solid #CCDDFF;
+}
+
+.healthtech img {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.healthtech h5, .savi h5 {
+  font-weight: normal;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.source {
+  margin-bottom: 5%;
+}
